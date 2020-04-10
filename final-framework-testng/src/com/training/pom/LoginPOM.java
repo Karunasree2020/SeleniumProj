@@ -21,7 +21,6 @@ public class LoginPOM {
 	
 	@FindBy(xpath="//button[@class='btn btn-primary']")
 	private WebElement loginBtn; 
-	
 	public void sendUserName(String userName) {
 		this.userName.clear();
 		this.userName.sendKeys(userName);
@@ -35,7 +34,8 @@ public class LoginPOM {
 	public void clickLoginBtn() {
 		this.loginBtn.click(); 
 	}
-/*	public boolean LoginUser(String UserID,String Password)
+ 
+	public boolean LoginUser(String UserID,String Password)
     {
             try
             {
@@ -51,5 +51,5 @@ public class LoginPOM {
                     System.out.println(ex.getMessage());
                     return false;
             }
-                } */
+                }
 }
