@@ -1,29 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26995" started-at="2020-04-10T11:12:34Z" finished-at="2020-04-10T11:13:01Z">
+  <suite name="Default suite" duration-ms="83318" started-at="2020-04-16T14:20:40Z" finished-at="2020-04-16T14:22:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26995" started-at="2020-04-10T11:12:34Z" finished-at="2020-04-10T11:13:01Z">
-      <class name="com.training.sanity.tests.UNF_039">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UNF_039@ea4a92b]" name="setUpBeforeClass" is-config="true" duration-ms="21" started-at="2020-04-10T16:42:34Z" finished-at="2020-04-10T16:42:34Z">
+    <test name="Default test" duration-ms="83318" started-at="2020-04-16T14:20:40Z" finished-at="2020-04-16T14:22:04Z">
+      <class name="com.training.sanity.tests.UNF_068">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2020-04-16T19:50:40Z" finished-at="2020-04-16T19:50:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UNF_039@ea4a92b]" name="setUp" is-config="true" duration-ms="15950" started-at="2020-04-10T16:42:34Z" finished-at="2020-04-10T16:42:50Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="setUp" is-config="true" duration-ms="12954" started-at="2020-04-16T19:50:40Z" finished-at="2020-04-16T19:50:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.UNF_039@ea4a92b]" name="validLoginTest" duration-ms="9070" started-at="2020-04-10T16:42:50Z" finished-at="2020-04-10T16:42:59Z">
+        <test-method status="PASS" signature="validLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="validLoginTest" duration-ms="6629" started-at="2020-04-16T19:50:53Z" data-provider="testdata" finished-at="2020-04-16T19:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Red T shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T shirt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RTS-012]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.UNF_039@ea4a92b]" name="tearDown" is-config="true" duration-ms="1934" started-at="2020-04-10T16:42:59Z" finished-at="2020-04-10T16:43:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="tearDown" is-config="true" duration-ms="1863" started-at="2020-04-16T19:51:00Z" finished-at="2020-04-16T19:51:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.UNF_039 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="setUp" is-config="true" duration-ms="11698" started-at="2020-04-16T19:51:02Z" finished-at="2020-04-16T19:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="validLoginTest" duration-ms="7101" started-at="2020-04-16T19:51:14Z" data-provider="testdata" finished-at="2020-04-16T19:51:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blazer(II-V)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blazer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Blz-014]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Formal wear]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="tearDown" is-config="true" duration-ms="1833" started-at="2020-04-16T19:51:21Z" finished-at="2020-04-16T19:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="setUp" is-config="true" duration-ms="11589" started-at="2020-04-16T19:51:23Z" finished-at="2020-04-16T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="validLoginTest" duration-ms="7455" started-at="2020-04-16T19:51:34Z" data-provider="testdata" finished-at="2020-04-16T19:51:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Socks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[socks]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Soc-143]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="tearDown" is-config="true" duration-ms="1875" started-at="2020-04-16T19:51:42Z" finished-at="2020-04-16T19:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="setUp" is-config="true" duration-ms="11700" started-at="2020-04-16T19:51:43Z" finished-at="2020-04-16T19:51:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="validLoginTest" duration-ms="6587" started-at="2020-04-16T19:51:55Z" data-provider="testdata" finished-at="2020-04-16T19:52:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shirt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SHI-201]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[School Uniform]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.UNF_068@47f37ef1]" name="tearDown" is-config="true" duration-ms="1831" started-at="2020-04-16T19:52:02Z" finished-at="2020-04-16T19:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.UNF_068 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
